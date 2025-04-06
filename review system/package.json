@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Priii08.github.io/Book-review-app",
   "name": "book-review-system",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -15,3 +18,5 @@
     "vite": "^4.4.0"
   }
 }
+
+
